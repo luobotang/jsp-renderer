@@ -1,0 +1,23 @@
+{
+  "name": "jsp-renderer",
+  "version": "0.1.0",
+  "description": "jsp renderer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js test/page/test.jsp test test/output.html"
+  },
+  "author": "luobotang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luobotang/jsp-renderer.git"
+  },
+  "keywords": [
+    "jsp",
+    "renderer"
+  ],
+  "bugs": {
+    "url": "https://github.com/luobotang/jsp-renderer/issues"
+  },
+  "homepage": "https://github.com/luobotang/jsp-renderer#readme"
+}
