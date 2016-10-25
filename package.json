@@ -4,7 +4,7 @@
   "description": "jsp renderer",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js test/page/test.jsp test test/output.html"
+    "test": "node test/test.js"
   },
   "author": "luobotang",
   "license": "MIT",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/luobotang/jsp-renderer/issues"
   },
-  "homepage": "https://github.com/luobotang/jsp-renderer#readme"
+  "homepage": "https://github.com/luobotang/jsp-renderer#readme",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
 }
