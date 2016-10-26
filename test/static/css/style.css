@@ -22,6 +22,15 @@ h1 {
 	color: red;
 }
 
+form {
+	padding: 30px;
+	border: 1px solid #ccc;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
 #container {
 	margin: 20px auto;
 	width: 800px;

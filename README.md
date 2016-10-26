@@ -1,6 +1,6 @@
 # jsp-renderer
 
-Render JSP to html with JavaScript.
+Render JSP to HTML, simply remove Java code block and other things not supported, but support some necessary things like ```<%@include%>```, ```<%=..%>```, ```${..}```, ```<c:if>```, etc.
 
 ## Usage
 

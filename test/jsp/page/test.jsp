@@ -11,5 +11,10 @@
 	<s:else>
 		<p>Something is WRONG!</p>
 	</s:else>
+	<form action="${form.action}" method="post">
+		<p><input id="userName" type="text" placeholder="user name" value="${form.userName}"></p>
+		<p><input id="userEmail" type="text" placeholder="user email" value="${form.userEmail}"></p>
+		<p><button type="submit">Save</button></p>
+	</form>
 </div>
 <%@ include file="/lib/foot.jsp" %>

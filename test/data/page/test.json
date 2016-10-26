@@ -1,4 +1,8 @@
 {
-	"name": "luobotang",
+	"form": {
+		"action": "/user",
+		"userName": "luobotang",
+		"userEmail": "luobotang@xxx.com"
+	},
 	"ok": true
 }
