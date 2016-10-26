@@ -3,20 +3,6 @@
 	padding: 0;
 }
 
-header {
-	padding: 30px 0;
-	text-align: center;
-	color: #fff;
-	background: #000;
-}
-
-footer {
-	padding: 30px 0;
-	text-align: center;
-	color: #999;
-	border-top: 1px solid #999;
-}
-
 h1 {
 	text-align: center;
 	color: red;
@@ -31,8 +17,35 @@ p {
 	margin-bottom: 1em;
 }
 
+header {
+	position: relative;
+	padding: 30px;
+	color: #fff;
+	background: #000;
+}
+
+footer {
+	padding: 30px 0;
+	text-align: center;
+	color: #999;
+	border-top: 1px solid #999;
+}
+
+header .user {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
 #container {
 	margin: 20px auto;
 	width: 800px;
 	height: 400px;
+}
+
+.tip-success {
+	color: green;
+}
+.tip-fail {
+	color: red;
 }

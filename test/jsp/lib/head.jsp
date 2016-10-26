@@ -7,4 +7,7 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<header>HEAD</header>
+<header>
+	<div class="logo">DEMO</div>
+	<div class="user">${name}</div>
+</header>
